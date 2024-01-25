@@ -45,6 +45,12 @@ DISTINCT_COUNTRIES_QUERY = "SELECT DISTINCT Country FROM leaderboard"
 
 router = APIRouter()
 
+
+@router.get('/', response_model=List[LeaderboardEntry])
+async def start():
+    print("Successful")
+    return "Hello world"
+
 @router.get('/api/main_leaderboard', response_model=List[LeaderboardEntry])
 async def main_leaderboard(db: aiomysql.Connection = Depends(create_db_connection)):
     try:
