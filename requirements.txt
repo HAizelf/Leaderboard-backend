@@ -1,42 +1,20 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-64
-aiomysql=0.2.0=pypi_0
-annotated-types=0.6.0=pypi_0
-anyio=4.2.0=pypi_0
-bzip2=1.0.8=h1de35cc_0
-ca-certificates=2023.08.22=hecd8cb5_0
-click=8.1.7=pypi_0
-exceptiongroup=1.2.0=pypi_0
-expat=2.5.0=hcec6c5f_0
-faker=18.9.0=py38hecd8cb5_0
-fastapi=0.109.0=pypi_0
-h11=0.14.0=pypi_0
-idna=3.6=pypi_0
-libcxx=14.0.6=h9765a3e_0
-libffi=3.4.4=hecd8cb5_0
-libprotobuf=3.11.4=hd9629dc_0
-mysql-connector-c=6.1.11=hccea1a4_1
-mysql-connector-python=8.0.18=py38h2de1c92_1
-ncurses=6.4=hcec6c5f_0
-openssl=1.1.1w=hca72f7f_0
-pip=23.3.1=py38hecd8cb5_0
-protobuf=3.11.4=py38h0a44026_0
-pydantic=2.5.3=pypi_0
-pydantic-core=2.14.6=pypi_0
-pymysql=1.1.0=pypi_0
-python=3.8.18=h218abb5_0
-python-dateutil=2.8.2=pyhd3eb1b0_0
-readline=8.2=hca72f7f_0
-setuptools=68.2.2=py38hecd8cb5_0
-six=1.16.0=pyhd3eb1b0_1
-sniffio=1.3.0=pypi_0
-sqlite=3.41.2=h6c40b1e_0
-starlette=0.35.1=pypi_0
-tk=8.6.12=h5d9f67b_0
-typing-extensions=4.9.0=pypi_0
-tzdata=2023d=h04d1e81_0
-uvicorn=0.27.0=pypi_0
-wheel=0.41.2=py38hecd8cb5_0
-xz=5.4.5=h6c40b1e_0
-zlib=1.2.13=h4dc903c_0
+aiomysql==0.2.0
+annotated-types==0.6.0
+anyio==4.2.0
+click==8.1.7
+exceptiongroup==1.2.0
+Faker @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_45nkbmb5h_/croot/faker_1685460778187/work
+fastapi==0.109.0
+h11==0.14.0
+idna==3.6
+mysql-connector-python==8.0.18
+protobuf==3.11.4
+pydantic==2.5.3
+pydantic_core==2.14.6
+PyMySQL==1.1.0
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio==1.3.0
+starlette==0.35.1
+typing_extensions==4.9.0
+uvicorn==0.27.0
