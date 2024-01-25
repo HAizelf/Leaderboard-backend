@@ -7,7 +7,7 @@ fastapi==0.109.0
 h11==0.14.0
 idna==3.6
 mysql-connector-python==8.0.18
-protobuf==3.11.4
+protobuf==3.11.3
 pydantic==2.5.3
 pydantic_core==2.14.6
 PyMySQL==1.1.0
